@@ -3,7 +3,9 @@ The code sample also has a basic but buggy implementation of using an external c
 
 ## Steps for creating a Fininite State Machine using Misty's builtin js
 I am in somewhat of a disbelief that this is as hard as it is, so if this is incorrect or there is an easier way to do this, please LMK
+
 **core issue: there is no way to pass state in and out of callback functions**
+
 Solution: use the misty key-value database
 
 Basic Outline:
